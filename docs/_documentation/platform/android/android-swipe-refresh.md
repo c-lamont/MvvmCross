@@ -35,7 +35,7 @@ private DoRefreshCommand()
 <MvxSwipeRefreshLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    local:MvxBind="RefreshCommand RefreshCommand">
+    local:MvxBind="RefreshCommand RefreshCommand; Refreshing IsRefreshing">
     <ScrollView />
     <!-- or -->
     <RecyclerView />
